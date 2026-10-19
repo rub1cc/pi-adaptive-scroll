@@ -1,0 +1,17 @@
+{
+  "name": "@rub1cc/pi-adaptive-scroll",
+  "version": "0.1.0",
+  "description": "Precise slow scrolling and adaptive acceleration for Pi's fullscreen transcript",
+  "type": "module",
+  "keywords": ["pi-package", "pi-extension"],
+  "pi": { "extensions": ["./index.ts"] },
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts",
+    "check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "engines": { "node": ">=22.19.0" }
+}
