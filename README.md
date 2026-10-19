@@ -49,3 +49,8 @@ npm run check
 
 Tests cover the curve, bounds, resets, native restoration, overlay behavior,
 renderer replacement, and the installed Pi implementation's wheel routing.
+
+## Releases
+
+See [RELEASING.md](RELEASING.md) for npm trusted publishing and tag-based releases
+with `npm version`.

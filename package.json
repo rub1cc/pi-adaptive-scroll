@@ -2,7 +2,13 @@
   "name": "@rub1cc/pi-adaptive-scroll",
   "version": "0.1.0",
   "description": "Precise slow scrolling and adaptive acceleration for Pi's fullscreen transcript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rub1cc/pi-adaptive-scroll.git"
+  },
   "type": "module",
+  "files": ["index.ts", "acceleration.ts", "wheel-hook.ts", "README.md"],
+  "publishConfig": { "access": "public" },
   "keywords": ["pi-package", "pi-extension"],
   "pi": { "extensions": ["./index.ts"] },
   "scripts": {
